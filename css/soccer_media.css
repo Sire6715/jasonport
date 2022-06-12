@@ -1,0 +1,94 @@
+@media only  screen and (min-width: 950px){
+    @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300&family=Quicksand:wght@300;400&family=Shadows+Into+Light&display=swap');
+
+    .mob {
+        display: none;
+    }
+    
+    .index i {
+        display: none;
+    }
+    
+    .desk, .nav-item {
+        display: flex;
+    }
+    
+    nav {
+        padding: 8em;
+    }
+    
+    .desk {
+        font-size: 4em !important;
+        font-family: 'Shadows Into Light', cursive;
+    }
+    
+    .desk span {
+       font-family: 'Shadows Into Light', cursive;
+        background: -webkit-linear-gradient(#003de6, #004aea);
+         -webkit-background-clip: text;
+         -webkit-text-fill-color: transparent;
+    }
+    
+    .nav-item {
+        display: flex !important;
+        padding-left: 19%;
+    }
+    
+    .nav-item a {
+        color: #000000;
+        text-decoration: none;
+        font-weight: 700;
+    
+    }
+    
+    .text::before {
+        content: '';
+        border-left: 5px solid  #2530ff;
+        position: absolute;
+        height: 37px;
+        transform: translate(-71px, 10px);
+    }
+    
+    .first-two::before {
+        display: none;
+    }
+    
+    #img2{
+        width: 26%;
+    }
+    .journey {
+     font-size: 3rem;
+    }
+    
+    .journey-img  {
+        width: 70%;
+        transform: translate(140px, 10px);
+    }
+    
+    .architecture, .wireframes {
+        width: 76%;
+    }
+    
+    .catalogue {
+        width: 70%;
+    }
+
+    .final {
+        display: block !important;
+        justify-self: center;
+    }
+
+    #ui {
+        width: 1200px;
+
+    }
+    .ui1 {
+        margin: 2em;
+        width: 1250px;
+    }
+
+    #thanks {
+        margin-top: 1em;
+        font-size: 5rem;
+    }
+}

@@ -1,0 +1,189 @@
+@media only  screen and (min-width: 500px){
+    body {
+        padding: 1em !important;
+    }
+
+   
+    .desk, .nav-item {
+        display: flex;
+    }
+    
+    .navbar-brand {
+        font-size: 4em !important;
+        padding-left: 1em;
+    }
+
+    
+    nav {
+        padding-right: 8em;
+    }
+    
+    .nav-item {
+        display: flex !important;
+        padding-left: 19%;
+    }
+    
+    .nav-item a {
+        color: #000000;
+        text-decoration: none;
+        font-weight: 700;
+    
+    }
+
+    .icons, .bi-arrow-down, .bi-chat-left-text {
+        display: none;
+    }
+
+    .intro {
+        margin-left: 3em;
+    }
+
+    .intro h1 {
+        font-size: 4rem;
+    }
+
+
+
+    .square-mob , .circle-mob{
+        display: none;
+    }
+
+    .intro {
+        position: relative;
+        transform: translate(10px, 10px);
+        margin-top: 10em !important;
+    }
+
+    .circle1 {
+        width: 100px !important;
+        height: 100px;
+        border: #e675008f 2px solid;
+        border-radius: 50%;
+        margin: 0em;
+        opacity: 0.8;
+        position: absolute;
+        bottom: 85px;
+        left: 368px;
+    }
+
+    .circle2 {
+        width: 100px !important;
+        height: 100px;
+        border: #e675008f 2px solid;
+        border-radius: 50%;
+        margin: 0em;
+        opacity: 0.8;
+        position: absolute;
+      
+    }
+
+    .circle2 {
+        width: 190px !important;
+        height: 190px;
+        border: #e675008f 2px solid;
+        border-radius: 50%;
+        margin: 0em;
+        opacity: 0.8;
+        position: absolute;
+
+}
+
+.circle1 {
+       animation-name: circle1;
+        animation-duration: 4s;
+        animation-fill-mode: both;
+        animation-delay: 0s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+        animation-timing-function: linear;
+}
+
+.circle2  {
+    animation-name: circle2;
+     animation-duration: 4s;
+     animation-fill-mode: both;
+     animation-delay: 0s;
+     animation-iteration-count: infinite;
+     animation-direction: alternate;
+     animation-timing-function: linear;
+}
+
+.square1 {
+    position: absolute;
+    height: 68px;
+    width: 68px !important;
+    border: solid 3px rgb(28 104 159);
+    opacity: 0.5;
+}
+
+.square2 {
+    position: absolute;
+    height: 200px;
+    width: 200px !important;
+    border: solid 3px rgb(28 104 159);
+    opacity: 0.5;
+}
+
+.square1 {
+    animation-name: square1;
+    animation-duration: 4s;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+}
+
+.square2 {
+    animation-name: square2;
+    animation-duration: 4s;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+}
+
+
+
+
+@keyframes circle1 {
+    0% {
+        transform: translate(-8em, 6em);
+    }
+    100% {
+        transform: translate(-5em, 3em);
+    }
+    }
+
+    @keyframes circle2 {
+        0% {
+            transform: translate(31em, 6em);
+        }
+        
+        100% {
+            transform: translate(37em, -3em);
+        }
+        }
+
+
+        @keyframes square1  {
+         0% {
+                transform:translate(514px, -92px) rotate(0deg);
+            }
+
+            100% {
+                transform:translate(514px, -128px) rotate(360deg);
+            }
+        }
+
+    @keyframes square2  {
+            0% {
+                transform:translate(43em, 19em) rotate(0deg);
+            }
+
+            100% {
+                transform:translate(43em, 19em) rotate(360deg);
+            }
+        }
+}
+
+

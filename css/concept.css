@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300&family=Quicksand:wght@300;400&family=Shadows+Into+Light&display=swap');
+*{font-family: 'Fredoka', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+  box-sizing: border-box;}
+
+
+html {
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+    -moz-osx-font-smoothing: grayscale;}
+
+body {  
+     overflow-x: hidden;
+      background-image: url(../image/bg-pattern-bottom.svg);
+      background-position-y: initial;
+      background-position-y: initial;
+      background-size: 2000px;
+      background-repeat: no-repeat;
+      font-weight: 700 !important;
+      padding: 1em;}
+
+
+  .container-fluid {
+        padding: 0rem !important;
+    }
+    
+.navbar {
+        display: none !important;
+        padding: 4em;
+    }
+    
+    
+.mob {
+     font-size: 30px !important;
+     font-weight: 700 !important;
+    }
+    
+.victor { 
+    background: -webkit-linear-gradient(#003de6, #004aea);
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+          }
+
+.designs {
+    display: flex !important;
+    justify-content: space-between;
+}
+
+.index a i {
+        color: #000;
+        font-size: 30px;
+    }
+    
+ .navbar {
+    position: relative;
+    display: flex;
+     flex-wrap: wrap;
+    align-items: center;
+     justify-content: space-between;
+     padding-top: 5.5em;
+    padding-bottom: 5.5rem;
+       }
+
+
+.nav-item a {
+    color: black;
+    text-decoration: none;
+    margin: 0.9em;
+}    
+
+.row div {
+    padding: 1em;
+}
+
+.row div img {
+    border-radius: 5px;
+}
+
+.img-fluid {
+    height: auto !important;
+}
+
+.img-fluid {
+    width: 20em !important;
+    height: 18em !important;
+    margin-bottom: 2em !important;
+}
+
+.row h1 {
+    font-weight: 800;
+    line-height: 3em;
+}
+
+#thank {
+    text-align: center;
+    font-size: 4em;
+    font-weight: 900;
+    line-height: 2em;
+}
+
+@media only  screen and (min-width: 650px){
+    .navbar {
+        display: flex !important;
+    }
+
+    i {
+        display: none;
+    }
+
+}
