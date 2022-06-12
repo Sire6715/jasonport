@@ -149,3 +149,7 @@ body {
 #ui {
     width: 80%;
 }
+
+.hg1  img {
+    width: 80% !important;
+}
